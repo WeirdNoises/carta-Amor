@@ -3,17 +3,111 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.topbar-another{
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topbar-another p {
+  font-family: Rowdies;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .topBar img {
-  width: 100px;
-}
-
-.topBar img {
-  width: 40px;
+  width: 70px;
 }
 
 .topBar h1 {
-  font-size: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white  ;
+  font-family: Rowdies;
+}
+
+.carta {
+  margin-top: 10vh;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.carta h3{
+  font-family: Rowdies;
+}
+
+.top-cosas {
+  margin-top: 10vh;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-cosas h1{
+  font-size: 50px;
+  font-weight: bolder;
+  color: white  ;
+  font-family: Rowdies;
+}
+
+.top-cosas li{
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 24px;
+  font-family: 'Rowdies', cursive;
+  color: #444;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.top-cosas li:hover{
+  transform: translateY(-5px);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.final{
+  margin-top: 10vh;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.final h1{
+  font-size: 50px;
+  font-weight: bolder;
+  color: white  ;
+  font-family: Rowdies;
+}
+
+.final img{
+  width: 70px;
+  margin: 3vh;
+}
+
+@media (max-width:750px) {
+  .final h1{
+    font-size: 30px;
+  }
+  .topBar h1 {
+    font-size: 20px;
+  }
 }
